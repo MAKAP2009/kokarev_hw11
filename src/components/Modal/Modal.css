@@ -1,0 +1,55 @@
+.modal-window {
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    border: 2px solid rgb(122, 122, 255);
+    border-radius: 5px;
+    position: absolute;
+    inset: 0;
+    background: white;
+    z-index: 99;
+    margin: auto;
+}
+
+.modal-wrapper {
+    position: fixed;
+    background: rgb(90, 90, 90);
+    width: 100%;
+    height: 100vw;
+    top: 0;
+    opacity: 0.5;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.confirmation-button, 
+.reject-button {
+    background-color: rgb(230, 229, 229);
+    color: rgb(9, 9, 9);
+    border: none;
+    border-radius: 5px;
+    outline: 2px solid rgb(165, 165, 167);
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 100px;
+    height: 25px;
+}
+
+.reject-button {
+    margin-left: 30px;
+    background-color: #9bb579;
+    color: rgb(14, 13, 13);
+}
+
+.confirmation-button {
+    background-color: #254270;
+    color: rgb(245, 248, 245);
+}
